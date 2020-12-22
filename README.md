@@ -4,7 +4,7 @@
 
 https://dev.mysql.com/downloads/
 
-dkpg -i the-installed-deb-file
+dpkg -i the-installed-deb-file
     -> mysql 8.0
     -> mysql tools: enable
     -> third option: disabled
@@ -12,6 +12,7 @@ dkpg -i the-installed-deb-file
 sudo apt update
 
 sudo apt install mysql-server
+sudo apt -y install mysql-workbench-community
 
 mysql -u root -p
     --> to access mysql CLI monitor
